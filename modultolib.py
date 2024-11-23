@@ -1,7 +1,7 @@
 import pandas as pd
 import streamlit as st
 import pickle
-
+import xgboost
 
 # Modelni yuklash
 model_path = "xgb_model.pkl"  # Yuklangan fayl bilan bir xil joyda saqlang
